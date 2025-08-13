@@ -17,13 +17,14 @@
         <header class="header wrapper">
 
             <!-- タイトル画像 -->
-
+            <h1><img src="images/logo.png" alt=""></h1>
 
             <!-- メインナビゲーション -->
             <nav>
-
-
-
+                <ul>
+                    <li><a href="#portfolis">portfolios</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
             </nav>
 
         </header>
@@ -34,17 +35,62 @@
 
             <!-- ピックアップコーナー（スライドショー） -->
             <section class="pickup-area wrapper">
-
-
-
-
-
+                <div class="slide-area">
+                    <!-- JavaScriptで自動追加 -->
+                </div>
+                <div class="slide-button">
+                    <!-- JavaScriptで自動追加 -->
+                </div>
             </section>
             <!-- ピックアップコーナー（スライドショー） の終わり-->
 
             <!-- ポートフォリオ紹介 -->
             <section id="portfolios" class="portfolios-area">
+                <h2>ポートフォリオ</h2>
 
+                <!-- グリッドで整列 -->
+                <div class="portfolio-grid">
+
+                    <!-- 1つ目 -->
+                    <div class="gird-box">
+                        <h3>レベルローグライクコマンドバトル</h3>
+                        <img src="images/works/animal_mirror.png" alt="ローグライクコマンド">
+                        <p>レベルアップができるローグライクコマンドゲームです</p>
+                        <a href="">作成詳細はこちら</a>
+                    </div>
+                </div>
+
+                <!-- 2つ目 -->
+                <div class="gird-box">
+                    <h3>サンプル</h3>
+                    <img src="images/works/ninjya_shippu_blade.png"sample">
+                    <p>コメントsample</p>
+                    <a href="">作成詳細はこちら</a>
+                </div>
+
+                <!-- 3つ目 -->
+                <div class="gird-box">
+                    <h3>サンプル</h3>
+                    <img src="images/works/the_zeroth_Wonder.png" alt="sample">
+                    <p>コメントsample</p>
+                    <a href="">作成詳細はこちら</a>
+                </div>
+
+                <!-- 4つ目 -->
+                <div class="gird-box">
+                    <h3>サンプル</h3>
+                    <img src="images/works/astro_shooter.png" alt="sample">
+                    <p>コメントsample</p>
+                    <a href="">作成詳細はこちら</a>
+                </div>
+
+                <!-- 5つ目 -->
+                <div class="gird-box">
+                    <h3>サンプル</h3>
+                    <img src="images/works/delivery_spirits.png" alt="sample">
+                    <p>コメントsample</p>
+                    <a href="">作成詳細はこちら</a>
+                </div>
 
             </section>
             <!-- ポートフォリオ紹介 の終わり-->
@@ -52,8 +98,10 @@
 
             <!-- 自分の紹介（アバウト） -->
             <section class="about wrapper">
-
-
+                <div class="about-area">
+                    <img src="images/profile_icon.png" alt="自分のアイコン">
+                    <h2>Ryoma Oshima</h2>
+                </div>
             </section>
             <!-- 自分の紹介（アバウト） の終わり-->
 
@@ -62,18 +110,26 @@
 
         <!-- フッター -->
         <footer class="footer">
-            
-
+            <div id="contact" class="contact">
+                <a href=""><img src="images/mail.png" alt="mail"></a>
+                <a href=""><img src="images/github.png" alt="github"></a>
+                <a href=""><img src="images/x.png" alt="x"></a>
+                <a href=""><img src="images/instagram.png" alt="insta"></a>
+                <a href=""><img src="images/line.png" alt="line"></a>
+            </div>
+            <div class="copy-right">
+                <p>&copy;Oshima's Portfolio Site 2025.08</p>
+            </div>
         </footer>
         <!-- フッター の終わり-->
 
         <!-- トップへ戻るボタン -->
-
+        <a href="#" id="to-top-button"></a>
 
     </div>
     <!-- 全体を包むcontainerクラス の終わり（背景画像） -->
 
-    
+
     <!-- JavaScriptの連動ファイルの指定 -->
     <script src="js/script.js"></script>
 
